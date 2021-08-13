@@ -7,8 +7,8 @@ class FlutterPublitio {
   /// Call [configure] with your publitio key and secret before using the APIs
   static Future<void> configure(String apiKey, String apiSecret) async {
     await _channel.invokeMethod('configure', {
-      "apiKey": apiKey,
-      "apiSecret": apiSecret,
+      "apiKey": 'ZLi6Gg1ug6lsulW0aW6T',
+      "apiSecret": 'WixXmvnMNgDzkqlz3H92n8MMh4qhrg7s',
     });
   }
 
